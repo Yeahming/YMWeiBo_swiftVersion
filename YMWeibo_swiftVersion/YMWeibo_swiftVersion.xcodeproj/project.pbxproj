@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		B84703D91BB6FDE900A99965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703D31BB6FDE900A99965 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		B84703DB1BB6FE5300A99965 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703DA1BB6FE5300A99965 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B84703DD1BB6FF9600A99965 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703DC1BB6FF9600A99965 /* HomeTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B84703DF1BB6FFA100A99965 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703DE1BB6FFA100A99965 /* MessageTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B84703E11BB6FFC200A99965 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703E01BB6FFC200A99965 /* DiscoverTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B84703E31BB6FFCC00A99965 /* MeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703E21BB6FFCC00A99965 /* MeTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B84703E51BB700F100A99965 /* WrapNaciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703E41BB700F100A99965 /* WrapNaciViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B89517561BB6F9B5001C12BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89517551BB6F9B5001C12BF /* Assets.xcassets */; };
 		B89517641BB6F9B5001C12BF /* YMWeibo_swiftVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89517631BB6F9B5001C12BF /* YMWeibo_swiftVersionTests.swift */; };
 		B895176F1BB6F9B5001C12BF /* YMWeibo_swiftVersionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B895176E1BB6F9B5001C12BF /* YMWeibo_swiftVersionUITests.swift */; };
@@ -34,6 +39,11 @@
 /* Begin PBXFileReference section */
 		B84703D31BB6FDE900A99965 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B84703DA1BB6FE5300A99965 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B84703DC1BB6FF9600A99965 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		B84703DE1BB6FFA100A99965 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		B84703E01BB6FFC200A99965 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		B84703E21BB6FFCC00A99965 /* MeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewController.swift; sourceTree = "<group>"; };
+		B84703E41BB700F100A99965 /* WrapNaciViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrapNaciViewController.swift; sourceTree = "<group>"; };
 		B895174B1BB6F9B5001C12BF /* YMWeibo_swiftVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMWeibo_swiftVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89517551BB6F9B5001C12BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B895175A1BB6F9B5001C12BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,11 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				B84703D31BB6FDE900A99965 /* AppDelegate.swift */,
-				B84703D41BB6FDE900A99965 /* Discover */,
-				B84703D51BB6FDE900A99965 /* Home */,
 				B84703D61BB6FDE900A99965 /* Main */,
-				B84703D71BB6FDE900A99965 /* Me */,
+				B84703D51BB6FDE900A99965 /* Home */,
 				B84703D81BB6FDE900A99965 /* Message */,
+				B84703D41BB6FDE900A99965 /* Discover */,
+				B84703D71BB6FDE900A99965 /* Me */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -86,6 +96,7 @@
 		B84703D41BB6FDE900A99965 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				B84703E01BB6FFC200A99965 /* DiscoverTableViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -93,6 +104,7 @@
 		B84703D51BB6FDE900A99965 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B84703DC1BB6FF9600A99965 /* HomeTableViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -101,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				B84703DA1BB6FE5300A99965 /* MainViewController.swift */,
+				B84703E41BB700F100A99965 /* WrapNaciViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -108,6 +121,7 @@
 		B84703D71BB6FDE900A99965 /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				B84703E21BB6FFCC00A99965 /* MeTableViewController.swift */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -115,6 +129,7 @@
 		B84703D81BB6FDE900A99965 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				B84703DE1BB6FFA100A99965 /* MessageTableViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -298,8 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84703E51BB700F100A99965 /* WrapNaciViewController.swift in Sources */,
+				B84703DD1BB6FF9600A99965 /* HomeTableViewController.swift in Sources */,
 				B84703D91BB6FDE900A99965 /* AppDelegate.swift in Sources */,
+				B84703DF1BB6FFA100A99965 /* MessageTableViewController.swift in Sources */,
+				B84703E11BB6FFC200A99965 /* DiscoverTableViewController.swift in Sources */,
 				B84703DB1BB6FE5300A99965 /* MainViewController.swift in Sources */,
+				B84703E31BB6FFCC00A99965 /* MeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
