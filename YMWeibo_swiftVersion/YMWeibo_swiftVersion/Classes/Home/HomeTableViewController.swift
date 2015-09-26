@@ -12,14 +12,16 @@ class HomeTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        // 设置个性导航条
+        setupNaviBar()
     }
-
+    
+    // MARK: - 设置个性导航条
+    func setupNaviBar(){
+//        navigationItem.leftBarButtonItem = UIBarButtonItem.createButton("navigationbar_friendattention")
+        navigationItem.leftBarButtonItem = UIBarButtonItem.init(imageName: "navigationbar_friendattention")
+        navigationItem.rightBarButtonItem = UIBarButtonItem.init(imageName: "navigationbar_icon_radar")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
