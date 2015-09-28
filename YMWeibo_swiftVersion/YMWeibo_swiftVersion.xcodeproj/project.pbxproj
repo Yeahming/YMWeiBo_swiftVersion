@@ -16,6 +16,7 @@
 		B84703E81BB7047100A99965 /* BarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703E71BB7047100A99965 /* BarItem.swift */; settings = {ASSET_TAGS = (); }; };
 		B84703EE1BB70EA400A99965 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703EB1BB70EA400A99965 /* HomeTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B84703F01BB70EFE00A99965 /* ImageRightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703EF1BB70EFE00A99965 /* ImageRightButton.swift */; settings = {ASSET_TAGS = (); }; };
+		B84703F31BB7B76400A99965 /* VistorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84703F21BB7B76400A99965 /* VistorViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B89517561BB6F9B5001C12BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89517551BB6F9B5001C12BF /* Assets.xcassets */; };
 		B89517641BB6F9B5001C12BF /* YMWeibo_swiftVersionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89517631BB6F9B5001C12BF /* YMWeibo_swiftVersionTests.swift */; };
 		B895176F1BB6F9B5001C12BF /* YMWeibo_swiftVersionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B895176E1BB6F9B5001C12BF /* YMWeibo_swiftVersionUITests.swift */; };
@@ -48,6 +49,7 @@
 		B84703E71BB7047100A99965 /* BarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarItem.swift; sourceTree = "<group>"; };
 		B84703EB1BB70EA400A99965 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		B84703EF1BB70EFE00A99965 /* ImageRightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRightButton.swift; sourceTree = "<group>"; };
+		B84703F21BB7B76400A99965 /* VistorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistorViewController.swift; sourceTree = "<group>"; };
 		B895174B1BB6F9B5001C12BF /* YMWeibo_swiftVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMWeibo_swiftVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89517551BB6F9B5001C12BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B895175A1BB6F9B5001C12BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				B84703D31BB6FDE900A99965 /* AppDelegate.swift */,
+				B84703F11BB7B70400A99965 /* Vistor */,
 				B84703D61BB6FDE900A99965 /* Main */,
 				B84703E91BB70EA400A99965 /* Home */,
 				B84703D81BB6FDE900A99965 /* Message */,
@@ -170,6 +173,14 @@
 				B84703EF1BB70EFE00A99965 /* ImageRightButton.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B84703F11BB7B70400A99965 /* Vistor */ = {
+			isa = PBXGroup;
+			children = (
+				B84703F21BB7B76400A99965 /* VistorViewController.swift */,
+			);
+			path = Vistor;
 			sourceTree = "<group>";
 		};
 		B89517421BB6F9B5001C12BF = {
@@ -356,6 +367,7 @@
 				B84703D91BB6FDE900A99965 /* AppDelegate.swift in Sources */,
 				B84703DF1BB6FFA100A99965 /* MessageTableViewController.swift in Sources */,
 				B84703E81BB7047100A99965 /* BarItem.swift in Sources */,
+				B84703F31BB7B76400A99965 /* VistorViewController.swift in Sources */,
 				B84703E11BB6FFC200A99965 /* DiscoverTableViewController.swift in Sources */,
 				B84703DB1BB6FE5300A99965 /* MainViewController.swift in Sources */,
 				B84703E31BB6FFCC00A99965 /* MeTableViewController.swift in Sources */,
